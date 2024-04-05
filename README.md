@@ -23,7 +23,7 @@ You DO NOT need to hand-define plando, or even have plando enabled in host.yaml.
 This is an extension of the standard Manual item definition.
 ```json
     {
-        "count": 3,  // Maximum in pool.  Any above this number won't be plando'd
+        "count": 6,  // Maximum in pool.  Any above this number won't be plando'd
         "name": "Shield", // Name of the item as it appears in the client and other players.
         "progression": true,
         "linklink": {  // This is the important part:
@@ -31,9 +31,10 @@ This is an extension of the standard Manual item definition.
             "Tunic": ["Shield"],                           // Tunic only has one shield.  Nothing will happen when the link recieves shields 2 and 3.
             "A Link to the Past": ["Blue Shield", "Red Shield", "Mirror Shield"], // LttP has three separate shields.  This will progressify them.
             "Ocarina of Time": ["Progressive Shield", "Deku Shield", "Hylian Shield", "Mirror Shield"], // If a game has the option to be progressive or not, this uses progressives if it can find any, then the individuals afterwards.
+            "Factorio": ["progressive-armor", "progressive-energy-shield"],  // You can even progressify progressives!  This'll give all four Armor upgrades, then the two Energy Shield modules.
             "The Legend of Zelda": ["Magical Shield"],
             "SMZ3": ["ProgressiveShield"],
-            "Wind Waker": ["Progressive Shield"]
+            "Wind Waker": ["Progressive Shield"],
         }
     }
 ```
