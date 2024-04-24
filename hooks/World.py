@@ -82,15 +82,17 @@ def after_create_items(item_pool: list[ManualItem], world: World, multiworld: Mu
     # Remove "Nothing" items and replace them with filler items from other players
     victims = get_victims(multiworld, player)
     other_player = None
-    for item in item_pool.copy():
-        if item.name == "Nothing":
-            if other_player is None:
-                queue = iter(v for v in victims if v != player)
-                other_player = next(queue)
+    for item in [i for i in item_pool.copy() if i.name == "Nothing"]:
+        if other_player is None:
+            queue = iter(v for v in victims if v != player)
+            other_player = next(queue)
 
-            item_pool.remove(item)
-            world.multiworld.worlds[other_player].create_filler()
-            other_player = next(queue, None)
+        filler = world.multiworld.worlds[other_player].create_filler()
+        if filter is None:
+            raise Exception(f"Unable to create filler for {multiworld.player_name[other_player]}")
+        item_pool.append(filler)
+        item_pool.remove(item)
+        other_player = next(queue, None)
 
     return item_pool
 
@@ -133,7 +135,7 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int) -> 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
     victims = get_victims(multiworld, player)
-    
+
     unplaced_items = [i for i in multiworld.itempool if i.location is None]
     for item_data in item_table:
         if 'linklink' in item_data:
@@ -156,7 +158,7 @@ def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
                     options.sort(key=lambda x: linklink[multiworld.worlds[j].game].index(x.name))
                     if i == 1 and len(options) == 0:
                         print(f"No options for {item_data['name']} {i} for {multiworld.player_name[j]} ({multiworld.worlds[j].game})")
-                    
+
                     for item in options:
                         if placed:
                             break
@@ -179,14 +181,14 @@ def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
 
 def get_victims(multiworld: MultiWorld, player: int) -> set[int]:
     victims: set = get_option_value(multiworld, player, "victims")
-    
+
     if len(victims) == 0:
         victims = set(range(1, multiworld.players + 1))
     else:
         id_for_names = {multiworld.player_name[i]: i for i in range(1, multiworld.players + 1)}
         victims = set([id_for_names[v] for v in victims])
     return victims
-            
+
 
 
 # This is called before slot data is set and provides an empty dict ({}), in case you want to modify it before Manual does
