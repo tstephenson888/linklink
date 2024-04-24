@@ -1,232 +1,19 @@
 [
     {
-		"count": 1,
-		"name": "HM01 Cut",
-		"category": [],
-		"progression": true,
-		"linklink": {
-            "Pokemon Crystal": ["HM01 Cut"],
-            "Pokemon Emerald": ["HM01 Cut"],
-            "Pokemon Red and Blue": ["HM01 Cut"]
-        }
-	},
-	{
-		"count": 1,
-		"name": "HM02 Fly",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["HM02 Fly"],
-			"Pokemon Emerald": ["HM02 Fly"],
-			"Pokemon Red and Blue": ["HM02 Fly"]
-		}
-	},
-	{
-		"count": 1,
-		"name": "HM03 Surf",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["HM03 Surf"],
-			"Pokemon Emerald": ["HM03 Surf"],
-			"Pokemon Red and Blue": ["HM03 Surf"]
-		}
-	},
-	{
-		"count": 1,
-		"name": "HM04 Strength",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["HM04 Strength"],
-			"Pokemon Emerald": ["HM04 Strength"],
-			"Pokemon Red and Blue": ["HM04 Strength"]
-		}
-	},
-	{
-		"count": 1,
-		"name": "HM05 Flash",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["HM05 Flash"],
-			"Pokemon Emerald": ["HM05 Flash"],
-			"Pokemon Red and Blue": ["HM05 Flash"]
-		}
-	},
-	{
-		"count": 1,
-		"name": "HM06 Rock Smash",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["TM08 Rock Smash"],
-			"Pokemon Emerald": ["HM06 Rock Smash"]
-		}
-	},
-	{
-		"count": 1,
-		"name": "HM07 Waterfall",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["HM07 Waterfall"],
-			"Pokemon Emerald": ["HM07 Waterfall"]
-		}
-	},
-	{
-		"count": 0,
-		"name": "HM Whirlpool/ Dive",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["HM_WHIRLPOOL"],
-			"Pokemon Emerald": ["HM08 Dive"]
-		}
-	},
-	{
-		"name": "Boulder Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Boulder Badge"],
-			"Pokemon Red and Blue": ["Boulder Badge"]
-		}
-	},
-	{
-		"name": "Cascade Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Cascade Badge"],
-			"Pokemon Red and Blue": ["Cascade Badge"]
-		}
-	},
-	{
-		"name": "Thunder Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Thunder Badge"],
-			"Pokemon Red and Blue": ["Thunder Badge"]
-		}
-	},
-	{
-		"name": "Rainbow Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Rainbow Badge"],
-			"Pokemon Red and Blue": ["Rainbow Badge"]
-		}
-	},
-	{
-		"name": "Soul Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Soul Badge"],
-			"Pokemon Red and Blue": ["Soul Badge"]
-		}
-	},
-	{
-		"name": "Marsh Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Marsh Badge"],
-			"Pokemon Red and Blue": ["Marsh Badge"]
-		}
-	},
-	{
-		"name": "Volcano Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Volcano Badge"],
-			"Pokemon Red and Blue": ["Volcano Badge"]
-		}
-	},
-	{
-		"name": "Earth Badge",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Earth Badge"],
-			"Pokemon Red and Blue": ["Earth Badge"]
-		}
-	},
-	{
-		"name": "Poke Flute",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Poke Flute"],
-			"Pokemon Red and Blue": ["Poke Flute"]
-		}
-	},
-	{
-		"name": "Bicycle",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Bicycle"],
-			"Pokemon Red and Blue": ["Bicycle"],
-			"Pokemon Emerald": ["Mach Bike"]
-		}
-	},
-	{
-		"name": "S.S. Ticket",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["S.S. Ticket"],
-			"Pokemon Red and Blue": ["S.S. Ticket"],
-			"Pokemon Emerald": ["S.S. Ticket"]
-		}
-	},
-	{
-		"name": "Card Key",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Card Key"],
-			"Pokemon Red and Blue": ["Card Key"]
-		}
-	},
-	{
-		"name": "Scope",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Emerald": ["Devon Scope"],
-			"Pokemon Red and Blue": ["Silph Scope"]
-		}
-	},
-	{
-		"name": "Coin Case",
-		"category": [],
-		"progression": true,
-		"linklink": {
-			"Pokemon Crystal": ["Coin Case"],
-			"Pokemon Red and Blue": ["Coin Case"],
-			"Pokemon Emerald": ["Coin Case"]
-		}
-	},
-	{
-		"count": 5,
+		"count": 4,
 		"name": "Sword",
 		"category": [],
 		"progression": true,
 		"linklink": {
+            "The Legend of Zelda": ["Sword, White Sword, Magical Sword"],
+            "A Link to the Past": ["Progressive Sword"],
+            "SMZ3": ["ProgressiveSword"],
 			"Links Awakening DX": ["Progressive Sword"],
-			"The Legend of Zelda": ["Sword", "White Sword", "Magic Sword"],
-			"A Link to the Past": ["Progressive Sword"],
-			"Ocarina of Time": ["Kokiri Sword", "Giant's Knife", "Biggoron Sword"],
-			"SMZ3": ["ProgressiveSword"],
+			"Ocarina of Time": ["Kokiri Sword", "Giants Knife", "Biggoron Sword"],
+			"The Legend of Zelda - Oracle of Seasons": ["Progressive Sword", "Biggoron's Sword"],
 			"Wind Waker": ["Progressive Sword"],
-			"Tunic": ["Sword", "Sword Upgrade"]
-		}
+			"TUNIC": ["Sword Upgrade"]
+        }
 	},
 	{
 		"count": 3,
@@ -234,38 +21,66 @@
 		"category": [],
 		"progression": true,
 		"linklink": {
+            "The Legend of Zelda": ["Magical Shield"],
+            "A Link to the Past": ["Blue Shield", "Red Shield", "Mirror Shield"],
+            "SMZ3": ["ProgressiveShield"],
 			"Links Awakening DX": ["Progressive Shield"],
-			"The Legend of Zelda": ["Magical Shield"],
-			"A Link to the Past": ["Blue Shield", "Red Shield", "Mirror Shield"],
 			"Ocarina of Time": ["Deku Shield", "Hylian Shield", "Mirror Shield"],
-			"SMZ3": ["ProgressiveShield"],
+			"The Legend of Zelda - Oracle of Seasons": ["Progressive Shield"],
 			"Wind Waker": ["Progressive Shield"],
-			"Tunic": ["Shield"]
+			"TUNIC": ["Shield"]
 		}
 	},
-	{
-		"count": 3,
-		"name": "Bow and Arrow",
+    {
+		"count": 1,
+		"name": "Fire Magic",
 		"category": [],
 		"progression": true,
 		"linklink": {
-			"Links Awakening DX": ["Bow", "Max Arrows Upgrade", "10 Arrows"],
-			"The Legend of Zelda": ["Bow", "Arrow"],
-			"A Link to the Past": ["Progressive Bow", "Arrow Capacity (+5)", "Arrow Capacity (+10)"],
-			"Ocarina of Time": ["Progressive Bow"],
-			"SMZ3": ["Bow", "ArrowUpgrade5", "ArrowUpgrade10"],
-			"Wind Waker": ["Progressive Bow"]
-		}
+            "A Link to the Past": ["Fire Rod"],
+            "SMZ3": ["Firerod"],
+			"Ocarina of Time": ["Fire Arrows"],
+			"Wind Waker": ["Progressive Bow"],
+			"TUNIC": ["Glass Cannon"]
+        }
+	},
+    {
+		"count": 1,
+		"name": "Ice Magic",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Ice Rod"],
+            "SMZ3": ["Icerod"],
+			"Ocarina of Time": ["Ice Arrows"],
+			"TUNIC": ["Magic Dagger"]
+        }
 	},
 	{
+		"count": 1,
 		"name": "Super Arrows",
 		"category": [],
 		"progression": true,
 		"linklink": {
-			"The Legend of Zelda": ["Silver Arrow"],
+            "The Legend of Zelda": ["Silver Arrow"],
+            "A Link to the Past": ["Silver Bow", "Progressive Bow (Alt)"],
+            "SMZ3": ["SilverArrows"],
 			"Ocarina of Time": ["Light Arrows"],
-			"A Link to the Past": ["Progressive Bow"],
-			"SMZ3": ["SilverArrows"]
+			"Wind Waker": ["Progressive Bow"]
+		}
+	},
+	{
+		"count": 3,
+		"name": "Bow",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Bow", "Arrow"],
+            "A Link to the Past": ["Progressive Bow", "Bow", "Arrow Upgrade (70)", "Arrow Upgrade (+10)", "Arrow Upgrade (+5)", "Arrows (10)"],
+            "SMZ3": ["Bow", "ArrowUpgrade10", "ArrowUpgrade5"],
+			"Links Awakening DX": ["Bow", "Max Arrows Upgrade", "10 Arrows"],
+			"Ocarina of Time": ["Progressive Bow"],
+			"Wind Waker": ["Progressive Bow", "Progressive Quiver"]
 		}
 	},
 	{
@@ -274,144 +89,362 @@
 		"category": [],
 		"progression": true,
 		"linklink": {
-			"The Legend of Zelda": ["Boomerang", "Magical Boomerang"],
+            "The Legend of Zelda": ["Boomerang", "Magical Boomerang"],
+            "A Link to the Past": ["Blue Boomerang", "Red Boomerang"],
+            "SMZ3": ["BlueBoomerang", "RedBoomerang"],
 			"Links Awakening DX": ["Boomerang"],
-			"A Link to the Past": ["Blue Boomerang", "Red Boomerang"],
 			"Ocarina of Time": ["Boomerang"],
-			"SMZ3": ["BlueBoomerang", "RedBoomerang"],
+			"The Legend of Zelda - Oracle of Seasons": ["Progressive Boomerang"],
 			"Wind Waker": ["Boomerang"]
 		}
-	},
-	{
-		"count": 3,
-		"name": "Strength",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 2,
-		"name": "Flute",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 2,
-		"name": "Armor",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 2,
-		"name": "Hookshot",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 2,
-		"name": "Swimming",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Hammer",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 4,
-		"name": "Bottle",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Magical Rod",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Shovel",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Winged Shoes",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 2,
-		"name": "Magic Meter",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"count": 2,
-		"name": "Candle",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Fire Magic",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Ice Magic",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Book",
-		"category": [],
-		"progression": true,
-		"linklink": {}
-	},
-	{
-		"name": "Magic Powder",
-		"category": [],
-		"progression": true,
-		"linklink": {}
 	},
 	{
 		"count": 3,
 		"name": "Bombs",
 		"category": [],
 		"progression": true,
-		"linklink": {}
+		"linklink": {
+            "The Legend of Zelda": ["Bombs"],
+            "A Link to the Past": ["Bomb Upgrade (10)", "Bomb Upgrade (5)"],
+            "SMZ3": ["BombUpgrade10", "BombUpgrade5"],
+			"Links Awakening DX": ["Max Bombs Upgrade", "Bombs"],
+			"Ocarina of Time": ["Bomb Bag"],
+			"The Legend of Zelda - Oracle of Seasons": ["Bombs (10)"],
+			"Wind Waker": ["Bombs", "Progressive Bomb Bag"],
+			"TUNIC": ["Firecracker x6", "Firecracker x5", "Firecracker x4", "Firecracker x3"]
+		}
 	},
 	{
-		
+		"count": 2,
+		"name": "Flute",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Recorder"],
+            "A Link to the Past": ["Flute"],
+            "SMZ3": ["Flute"],
+			"Links Awakening DX": ["Ocarina"],
+			"Ocarina of Time": ["Ocarina"],
+			"The Legend of Zelda - Oracle of Seasons": ["Moosh's Flute", "Ricky's Flute", "Dimitri's Flute"],
+			"Wind Waker": ["Wind Waker"]
+		}
+	},
+	{
+		"count": 2,
+		"name": "Armor",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Blue Ring", "Red Ring"],
+            "A Link to the Past": ["Blue Mail", "Red Mail"],
+            "SMZ3": ["ProgressiveTunic"],
+			"Links Awakening DX": ["Blue Tunic"],
+			"Ocarina of Time": ["Double Defense"],
+			"Wind Waker": ["Magic Armor"],
+			"TUNIC": ["DEF Offering"]
+		}
+	},
+    {
+		"count": 3,
+		"name": "Strength",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Power Bracelet"],
+            "A Link to the Past": ["Progressive Glove"],
+            "SMZ3": ["ProgressiveGlove"],
+			"Links Awakening DX": ["Progressive Power Bracelet"],
+			"Ocarina of Time": ["Progressive Strength"],
+			"The Legend of Zelda - Oracle of Seasons": ["Power Bracelet"],
+			"Wind Waker": ["Power Bracelet"],
+			"TUNIC": ["ATT Offering"]
+        }
+	},
+    {
+		"count": 2,
+		"name": "Grapple",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Stepladder"],
+            "A Link to the Past": ["Hookshot"],
+            "SMZ3": ["Hookshot"],
+			"Links Awakening DX": ["Hookshot"],
+			"Ocarina of Time": ["Progressive Hookshot"],
+			"The Legend of Zelda - Oracle of Seasons": ["Magnetic Gloves"],
+			"Wind Waker": ["Grappling Hook, Hookshot"],
+			"TUNIC": ["Magic Orb"]
+        }
+	},
+    {
+		"count": 2,
+		"name": "Swimming",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Raft"],
+            "A Link to the Past": ["Flippers"],
+            "SMZ3": ["Flippers"],
+			"Links Awakening DX": ["Flippers"],
+			"Ocarina of Time": ["Progressive Scale"],
+			"The Legend of Zelda - Oracle of Seasons": ["Flippers", "Zora Ring"]
+        }
+	},
+    {
+		"count": 1,
+		"name": "Hammer",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Hammer"],
+            "SMZ3": ["Hammer"],
+			"Ocarina of Time": ["Megaton Hammer"],
+			"Wind Waker": ["Skull Hammer"]
+        }
+	},
+    {
+		"count": 4,
+		"name": "Bottle",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Bottles"],
+            "SMZ3": ["Bottle","BottleWithBee","BottleWithBluePotion","BottleWithFairy","BottleWithGoldBee","BottleWithGreenPotion","BottleWithRedPotion"],
+			"Ocarina of Time": ["Bottle","Bottle with Big Poe","Bottle with Blue Fire","Bottle with Blue Potion","Bottle with Bugs","Bottle with Fairy","Bottle with Fish","Bottle with Green Potion","Bottle with Milk","Bottle with Poe","Bottle with Red Potion"],
+			"Wind Waker": ["Empty Bottle"],
+			"TUNIC": ["Potion Flask"]
+        }
+	},
+	{
+		"count": 1,
+		"name": "Magical Rod",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Magical Rod"],
+            "A Link to the Past": ["Cane of Somaria"],
+            "SMZ3": ["Somaria"],
+			"Links Awakening DX": ["Magic Rod"],
+			"TUNIC": ["Magic Wand"]
+		}
+	},
+    {
+		"count": 1,
+		"name": "Shovel",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Shovel"],
+            "SMZ3": ["Shovel"],
+			"Links Awakening DX": ["Shovel"],
+			"The Legend of Zelda - Oracle of Seasons": ["Shovel"]
+        }
+	},
+    {
+		"count": 1,
+		"name": "Winged Boots",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Pegasus Boots"],
+            "SMZ3": ["Boots"],
+			"Links Awakening DX": ["Pegasus Boots"],
+			"Ocarina of Time": ["Hover Boots"],
+			"TUNIC": ["Anklet"]
+        }
+	},
+    {
+		"count": 2,
+		"name": "Lantern",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Candle", "Red Candle"],
+            "A Link to the Past": ["Lamp"],
+            "SMZ3": ["Lamp"],
+			"TUNIC": ["Lantern"]
+        }
+	},
+	{
+		"count": 1,
+		"name": "Book",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Book of Magic"],
+            "A Link to the Past": ["Book of Mudora"],
+            "SMZ3": ["Book"],
+			"The Legend of Zelda - Oracle of Seasons": ["Cuccodex"],
+			"TUNIC": ["Pages 2-3"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Magic Powder",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Magic Powder"],
+            "SMZ3": ["Powder"],
+			"Links Awakening DX": ["Magic Powder"]
+		}
+	},
+	{
+		"count": 1,
 		"name": "Mushroom",
 		"category": [],
 		"progression": true,
-		"linklink": {}
+		"linklink": {
+            "A Link to the Past": ["Mushroom"],
+            "SMZ3": ["Mushroom"],
+			"Links Awakening DX": ["Toadstool"],
+			"Ocarina of Time": ["Odd Mushroom"],
+			"The Legend of Zelda - Oracle of Seasons": ["Mushroom"],
+			"TUNIC": ["Hero Relic - MP"]
+		}
 	},
 	{
 		"count": 3,
-		"name": "Spell",
+		"name": "Magic Spell",
 		"category": [],
 		"progression": true,
-		"linklink": {}
+		"linklink": {
+            "A Link to the Past": ["Quake", "Ether", "Bombos"],
+            "SMZ3": ["Quake", "Ether", "Bombos"],
+			"Ocarina of Time": ["Dins Fire", "Farores Wind", "Nayrus Love"],
+			"TUNIC": ["Pages 24-25 (Prayer)", "Pages 42-43 (Holy Cross)", "Pages 52-53 (Icebolt)"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Iron Boots",
+		"category": [],
+		"progression": true,
+		"linklink": {
+			"Ocarina of Time": ["Iron Boots"],
+			"Wind Waker": ["Iron Boots"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Feather",
+		"category": [],
+		"progression": true,
+		"linklink": {
+			"Links Awakening DX": ["Feather"],
+			"The Legend of Zelda - Oracle of Seasons": ["Progressive Feather"],
+			"Wind Waker": ["Golden Feather"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Cape",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Magical Shield"],
+            "A Link to the Past": ["Cape"],
+            "SMZ3": ["Cape"],
+			"The Legend of Zelda - Oracle of Seasons": ["Progressive Feather"]
+		}
+	},
+	{
+		"count": 3,
+		"name": "Slingshot",
+		"category": [],
+		"progression": true,
+		"linklink": {
+			"Ocarina of Time": ["Slingshot"],
+			"The Legend of Zelda - Oracle of Seasons": ["Progressive Slingshot"],
+			"TUNIC": ["Gun"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Membership Card",
+		"category": [],
+		"progression": true,
+		"linklink": {
+			"Ocarina of Time": ["Gerudo Membership Card"],
+			"The Legend of Zelda - Oracle of Seasons": ["Member's Card"],
+			"Wind Waker": ["Fill-Up Coupon"]
+		}
+	},
+	{
+		"count": 2,
+		"name": "Seed Bag",
+		"category": [],
+		"progression": true,
+		"linklink": {
+
+			"Ocarina of Time": ["Deku Nut Capacity"],
+			"The Legend of Zelda - Oracle of Seasons": ["Seed Satchel"],
+			"Wind Waker": ["Bait Bag"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Looking Glass",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Magic Mirror"],
+            "SMZ3": ["Mirror"],
+			"Links Awakening DX": ["Magnifying Glass"],
+			"Ocarina of Time": ["Lens of Truth"],
+			"Wind Waker": ["Spyglass"]
+		}
+	},
+	{
+		"count": 1,
+		"name": "Letter",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "The Legend of Zelda": ["Letter"],
+			"Ocarina of Time": ["Rutos Letter"],
+			"Wind Waker": ["Delivery Bag"],
+			"TUNIC": ["Pages 0-1"]
+		}
+	},
+	{
+		"count": 4,
+		"name": "Key Jewels",
+		"category": [],
+		"progression": true,
+		"linklink": {
+            "A Link to the Past": ["Moon Pearl"],
+            "SMZ3": ["MoonPearl"],
+			"The Legend of Zelda - Oracle of Seasons": ["Round Jewel", "Pyramid Jewel", "X-Shaped Jewel", "Square Jewel"],
+			"Wind Waker": ["Din's Pearl", "Farore's Pearl", "Nayru's Pearl"],
+			"TUNIC": ["Red Questagon", "Green Questagon", "Blue Questagon"]
+		}
+	},
+	{
+		"count": 3,
+		"name": "Wallet",
+		"category": [],
+		"progression": true,
+		"linklink": {
+			"Ocarina of Time": ["Progressive Wallet"],
+			"Wind Waker": ["Progressive Wallet"],
+			"TUNIC": ["Effigy"]
+		}
 	},
 	{
 		"count": 8,
 		"name": "Heart Container",
 		"category": [],
 		"progression": true,
-		"linklink": {}
+		"linklink": {
+            "The Legend of Zelda": ["Heart Container"],
+            "A Link to the Past": ["Boss Heart Container"],
+            "SMZ3": ["HeartContainer"],
+			"Links Awakening DX": ["Heart Container"],
+			"Ocarina of Time": ["Heart Container"],
+			"The Legend of Zelda - Oracle of Seasons": ["Heart Container"],
+			"Wind Waker": ["Heart Container", "Piece of Heart"],
+			"TUNIC": ["HP Offering", "Potion Flask", "Flask Shard"]
+		}
 	}
 ]
