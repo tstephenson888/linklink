@@ -12,7 +12,9 @@
 			"Ocarina of Time": ["Kokiri Sword", "Giants Knife", "Biggoron Sword"],
 			"The Legend of Zelda - Oracle of Seasons": ["Progressive Sword", "Biggoron's Sword"],
 			"Wind Waker": ["Progressive Sword"],
-			"TUNIC": ["Sword Upgrade"]
+			"TUNIC": ["Sword Upgrade"],
+			"Pokemon Red and Blue": ["HM01 Cut"],
+			"Pokemon Emerald": ["HM01 Cut"]
         }
 	},
 	{
@@ -159,7 +161,10 @@
 			"The Legend of Zelda - Oracle of Seasons": ["Power Bracelet"],
 			"Wind Waker": ["Power Bracelet"],
 			"TUNIC": ["ATT Offering"],
-			"Pokemon Red and Blue": ["HM04 Strength"]
+			"Pokemon Red and Blue": ["HM04 Strength"],
+			"Pokemon Emrald": [
+				"HM04 Strength"
+			]
         }
 	},
     {
@@ -190,7 +195,10 @@
 			"Links Awakening DX": ["Flippers"],
 			"Ocarina of Time": ["Progressive Scale"],
 			"The Legend of Zelda - Oracle of Seasons": ["Flippers", "Zora Ring"],
-			"Pokemon Red and Blue": ["HM03 Surf"]
+			"Pokemon Red and Blue": ["HM03 Surf"],
+			"Pokemon Emerald": [
+				"HM03 Surf", "HM07 Waterfall"
+			]
         }
 	},
     {
@@ -203,7 +211,8 @@
             "SMZ3": ["Hammer"],
 			"Ocarina of Time": ["Megaton Hammer"],
 			"Wind Waker": ["Skull Hammer"],
-			"Mario and Luigi Superstar Saga": ["Hammers"]
+			"Mario and Luigi Superstar Saga": ["Hammers"],
+			"Pokemon Emerald": ["HM06 Rock Smash"]
         }
 	},
     {
@@ -267,7 +276,8 @@
             "A Link to the Past": ["Lamp"],
             "SMZ3": ["Lamp"],
 			"TUNIC": ["Lantern"],
-			"Pokemon Red and Blue": ["HM05 Flash"]
+			"Pokemon Red and Blue": ["HM05 Flash"],
+			"Pokemon Emerald": ["HM05 Flash"]
         }
 	},
 	{
@@ -327,7 +337,8 @@
 		"progression": true,
 		"linklink": {
 			"Ocarina of Time": ["Iron Boots"],
-			"Wind Waker": ["Iron Boots"]
+			"Wind Waker": ["Iron Boots"],
+			"Pokemon Emerald": ["HM08 Dive"]
 		}
 	},
 	{
@@ -398,7 +409,8 @@
 			"Links Awakening DX": ["Magnifying Glass"],
 			"Ocarina of Time": ["Lens of Truth"],
 			"Wind Waker": ["Spyglass"],
-			"Pokemon Red and Blue": ["Silph Scope"]
+			"Pokemon Red and Blue": ["Silph Scope"],
+			"Pokemon Emerald": ["Devon Scope"]
 		}
 	},
 	{
@@ -411,7 +423,8 @@
 			"Ocarina of Time": ["Rutos Letter"],
 			"Wind Waker": ["Delivery Bag"],
 			"TUNIC": ["Pages 0-1"],
-			"Pokemon Red and Blue": ["Oak's Parcel"]
+			"Pokemon Red and Blue": ["Oak's Parcel"],
+			"Pokemon Emerald": ["Letter"]
 		}
 	},
 	{
@@ -436,7 +449,10 @@
 			"Ocarina of Time": ["Progressive Wallet"],
 			"Wind Waker": ["Progressive Wallet"],
 			"TUNIC": ["Effigy"],
-			"Pokemon Red and Blue": ["Coin Case"]
+			"Pokemon Red and Blue": ["Coin Case"],
+			"Pokemon Emerald": [
+				"Coin Case"
+			]
 		}
 	},
 	{
