@@ -126,7 +126,8 @@
 			"Links Awakening DX": ["Ocarina"],
 			"Ocarina of Time": ["Ocarina"],
 			"The Legend of Zelda - Oracle of Seasons": ["Moosh's Flute", "Ricky's Flute", "Dimitri's Flute"],
-			"Wind Waker": ["Wind Waker"]
+			"Wind Waker": ["Wind Waker"],
+			"Pokemon Red and Blue": ["Poke Flute"]
 		}
 	},
 	{
@@ -157,7 +158,8 @@
 			"Ocarina of Time": ["Progressive Strength"],
 			"The Legend of Zelda - Oracle of Seasons": ["Power Bracelet"],
 			"Wind Waker": ["Power Bracelet"],
-			"TUNIC": ["ATT Offering"]
+			"TUNIC": ["ATT Offering"],
+			"Pokemon Red and Blue": ["HM04 Strength"]
         }
 	},
     {
@@ -187,11 +189,12 @@
             "SMZ3": ["Flippers"],
 			"Links Awakening DX": ["Flippers"],
 			"Ocarina of Time": ["Progressive Scale"],
-			"The Legend of Zelda - Oracle of Seasons": ["Flippers", "Zora Ring"]
+			"The Legend of Zelda - Oracle of Seasons": ["Flippers", "Zora Ring"],
+			"Pokemon Red and Blue": ["HM03 Surf"]
         }
 	},
     {
-		"count": 1,
+		"count": 3,
 		"name": "Hammer",
 		"category": [],
 		"progression": true,
@@ -199,7 +202,8 @@
             "A Link to the Past": ["Hammer"],
             "SMZ3": ["Hammer"],
 			"Ocarina of Time": ["Megaton Hammer"],
-			"Wind Waker": ["Skull Hammer"]
+			"Wind Waker": ["Skull Hammer"],
+			"Mario and Luigi Superstar Saga": ["Hammers"]
         }
 	},
     {
@@ -262,7 +266,8 @@
             "The Legend of Zelda": ["Candle", "Red Candle"],
             "A Link to the Past": ["Lamp"],
             "SMZ3": ["Lamp"],
-			"TUNIC": ["Lantern"]
+			"TUNIC": ["Lantern"],
+			"Pokemon Red and Blue": ["HM05 Flash"]
         }
 	},
 	{
@@ -392,7 +397,8 @@
             "SMZ3": ["Mirror"],
 			"Links Awakening DX": ["Magnifying Glass"],
 			"Ocarina of Time": ["Lens of Truth"],
-			"Wind Waker": ["Spyglass"]
+			"Wind Waker": ["Spyglass"],
+			"Pokemon Red and Blue": ["Silph Scope"]
 		}
 	},
 	{
@@ -404,7 +410,8 @@
             "The Legend of Zelda": ["Letter"],
 			"Ocarina of Time": ["Rutos Letter"],
 			"Wind Waker": ["Delivery Bag"],
-			"TUNIC": ["Pages 0-1"]
+			"TUNIC": ["Pages 0-1"],
+			"Pokemon Red and Blue": ["Oak's Parcel"]
 		}
 	},
 	{
@@ -428,7 +435,8 @@
 		"linklink": {
 			"Ocarina of Time": ["Progressive Wallet"],
 			"Wind Waker": ["Progressive Wallet"],
-			"TUNIC": ["Effigy"]
+			"TUNIC": ["Effigy"],
+			"Pokemon Red and Blue": ["Coin Case"]
 		}
 	},
 	{
