@@ -263,9 +263,7 @@
             "SMZ3": ["Boots"],
 			"Links Awakening DX": ["Pegasus Boots"],
 			"Ocarina of Time": ["Hover Boots"],
-			"TUNIC": ["Anklet"],
-			"Pokemon Red and Blue": ["HM02 Fly"],
-			"Pokemon Emerald": ["HM02 Fly"]
+			"TUNIC": ["Anklet"]
         }
 	},
     {
@@ -334,7 +332,7 @@
 	},
 	{
 		"count": 1,
-		"name": "Iron Boots",
+		"name": "Diving Gear",
 		"category": [],
 		"progression": true,
 		"linklink": {
@@ -351,7 +349,13 @@
 		"linklink": {
 			"Links Awakening DX": ["Feather"],
 			"The Legend of Zelda - Oracle of Seasons": ["Progressive Feather"],
-			"Wind Waker": ["Golden Feather"]
+			"Wind Waker": ["Golden Feather"],
+			"Pokemon Red and Blue": [
+				"HM02 Fly"
+			],
+			"Pokemon Emerald": [
+				"HM02 Fly"
+			]
 		}
 	},
 	{
@@ -426,7 +430,6 @@
 			"Ocarina of Time": ["Rutos Letter"],
 			"Wind Waker": ["Delivery Bag"],
 			"TUNIC": ["Pages 0-1"],
-			"Pokemon Red and Blue": ["Oak's Parcel"],
 			"Pokemon Emerald": ["Letter"]
 		}
 	},
