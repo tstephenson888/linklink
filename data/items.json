@@ -162,7 +162,7 @@
 			"Wind Waker": ["Power Bracelet"],
 			"TUNIC": ["ATT Offering"],
 			"Pokemon Red and Blue": ["HM04 Strength"],
-			"Pokemon Emrald": [
+			"Pokemon Emerald": [
 				"HM04 Strength"
 			]
         }
@@ -263,7 +263,9 @@
             "SMZ3": ["Boots"],
 			"Links Awakening DX": ["Pegasus Boots"],
 			"Ocarina of Time": ["Hover Boots"],
-			"TUNIC": ["Anklet"]
+			"TUNIC": ["Anklet"],
+			"Pokemon Red and Blue": ["HM02 Fly"],
+			"Pokemon Emerald": ["HM02 Fly"]
         }
 	},
     {
